@@ -37,7 +37,6 @@
 
 .register-form .from-input{
   border: 0px solid red;
-  /* width: 100%; */
 }
 
 input[type="text"],input[type="email"],input[type="password"],input[type="number"] {
@@ -69,6 +68,7 @@ input[type="text"]:hover ,input[type="email"]:hover,input[type="password"]:hover
   margin-bottom: 1.5rem;
   background-color: rgb(43, 43, 137);
   cursor: pointer;
+  transition: all 0.5s ease 0s;
 }
 
 .register-form .from-input button:hover{

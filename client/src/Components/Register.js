@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Register =()=>{
 
+    
     return(
         <div className='register-body'>
             <form className='register-form'>
@@ -19,7 +21,7 @@ const Register =()=>{
                 </div>
 
                 <div className='register-footer'>
-                    <label>If you have an Account <a className='login-link' href='#'>Login</a> &nbsp; here </label>
+                    <label>If you have an Account <Link className='login-link' to='/login'>Login</Link> &nbsp; here </label>
                 </div>
 
 
